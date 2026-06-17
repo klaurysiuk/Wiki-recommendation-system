@@ -1,0 +1,7 @@
+custom_settings = {
+        'DEPTH_LIMIT': 3,
+        'DEPTH_PRIORITY': 1,
+        'SCHEDULER_DISK_QUEUE': 'scrapy.squeues.PickleFifoDiskQueue',
+        'SCHEDULER_MEMORY_QUEUE': 'scrapy.squeues.FifoMemoryQueue',
+        'FEEDS': {'wikipedia.json': {'format': 'json', 'encoding': 'utf8', 'ensure_ascii': False}}
+    }
